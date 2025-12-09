@@ -1,3 +1,7 @@
+Crear un script que cree links simbolicos y eso.
+
+Cambiar manualmente duele
+
 Gnome setup
 
 ```
