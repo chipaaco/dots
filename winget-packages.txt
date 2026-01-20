@@ -1,0 +1,5 @@
+autohotkey, zed, zen-browser, datagrip, docker desktop, danger zone
+affinity, obs-studio
+
+# not in winget
+prism launcher, gmod, onenote

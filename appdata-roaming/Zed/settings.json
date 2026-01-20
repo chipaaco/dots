@@ -1,0 +1,81 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+    "agent": {
+        "default_profile": "ask",
+        "profiles": {
+            "just-chat": {
+                "name": "Just chat",
+                "tools": {},
+                "enable_all_context_servers": false,
+                "context_servers": {}
+            },
+            "fuck-agents": {
+                "default_model": {
+                    "provider": "deepseek",
+                    "model": "deepseek-reasoner"
+                },
+                "name": "Fuck agents",
+                "tools": {
+                    "copy_path": true,
+                    "create_directory": true,
+                    "delete_path": true,
+                    "diagnostics": true,
+                    "edit_file": true,
+                    "fetch": true,
+                    "list_directory": true,
+                    "project_notifications": false,
+                    "move_path": true,
+                    "now": true,
+                    "find_path": true,
+                    "read_file": true,
+                    "restore_file_from_disk": true,
+                    "save_file": true,
+                    "open": true,
+                    "grep": true,
+                    "terminal": true,
+                    "thinking": true,
+                    "web_search": true
+                },
+                "enable_all_context_servers": true,
+                "context_servers": {}
+            },
+            "minimal": {
+                "name": "Minimal",
+                "tools": {
+                    "copy_path": false
+                },
+                "enable_all_context_servers": false,
+                "context_servers": {}
+            }
+        },
+        "default_model": {
+            "provider": "deepseek",
+            "model": "deepseek-reasoner"
+        },
+        "favorite_models": [],
+        "model_parameters": []
+    },
+    "project_panel": {
+        "hide_hidden": true
+    },
+    "vim_mode": true,
+    "icon_theme": {
+        "mode": "system",
+        "light": "Zed (Default)",
+        "dark": "Zed (Default)"
+    },
+    "ui_font_size": 16,
+    "buffer_font_size": 15,
+    "theme": {
+        "mode": "light",
+        "light": "One Light",
+        "dark": "One Dark"
+    }
+}
