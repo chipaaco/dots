@@ -1,27 +1,7 @@
-Crear un script que cree links simbolicos y eso.
+# Chipaaco's Dotfiles
 
-Cambiar manualmente duele
+Personal dotfiles for development environment configuration.
 
-Gnome setup
+## Usage
 
-```
-.
-├── .bashrc
-├── .config
-│   ├── nvim
-│   │   ├── init.lua
-│   │   ├── lazy-lock.json
-│   │   └── lua
-│   │       ├── core
-│   │       │   ├── keymaps.lua
-│   │       │   └── settings.lua
-│   │       └── plugins
-│   │           ├── colorscheme.lua
-│   │           └── plugins.lua
-│   ├── org.gnome.Ptyxis
-│   │   └── session.gvariant
-│   └── tmux
-│       └── tmux.conf
-├── .gitconfig
-└── ubuntupi-tweak.sh
-```
+Switch to the desired branch and clone. Each branch contains environment-specific configuration files.
