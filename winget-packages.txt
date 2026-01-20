@@ -1,4 +1,4 @@
-autohotkey, zed, zen-browser, datagrip, docker desktop, danger zone
+autohotkey, zed, zen-browser, datagrip, docker desktop, danger zone, sumatrapdf
 affinity, obs-studio
 
 # not in winget
